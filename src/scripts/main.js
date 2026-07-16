@@ -32,5 +32,5 @@ const messegeN = () => {
   document.body.append(div);
 };
 
-promise1.then(messegeS);
-promise2.catch(messegeN);
+promise1.then(messegeS).catch(messegeN);
+promise2.catch(messegeN).then(messegeS);
