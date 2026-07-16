@@ -33,4 +33,4 @@ const messegeN = () => {
 };
 
 promise1.then(messegeS).catch(messegeN);
-promise2.catch(messegeN).then(messegeS);
+promise2.then(messegeS).catch(messegeN);
